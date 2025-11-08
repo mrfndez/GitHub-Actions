@@ -2,13 +2,13 @@ name: Test React Code Workflow
 on:
   push:
     paths:
-      - 'project-02/**'
+      - 'Projects/Projects/02_ReactNodeJS/**'
 jobs:
   test-job:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./project-02
+        working-directory: ./Projects/Projects/02_ReactNodeJS
     steps:
       - name: Get Code (Checkout)
         uses: actions/checkout@v6-beta
