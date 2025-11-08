@@ -1,4 +1,4 @@
-name: Test React Code Workflow
+name: Test Code Workflow
 on:
   push:
     paths:
